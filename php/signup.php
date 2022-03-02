@@ -31,20 +31,22 @@
           </div>
           <div class="input-box">
             <span class="details">Password</span>
-            <input type="text" placeholder="Enter your password"name="pass" required>
+            <input type="text" placeholder="Enter your password"name="pass" id="pass" required>
           </div>
           <div class="input-box">
             <span class="details">Confirm Password</span>
-            <input type="text" placeholder="Confirm your password" required>
+            <input type="text" placeholder="Confirm your password" id="pass2" required>
+            <p style="color: red; font-size:10px;" id="pErr" class="class">mewo</p>
           </div>
         </div>
      
         <div class="button">
-          <input type="submit" value="Register">
+          <input type="submit" value="Register" onmouseover="getVal();">
         </div>
       </form>
     </div>
   </div>
-
+<script src="js/index.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
